@@ -16,3 +16,7 @@ Pending items :
 2) Add geolocation
 
 
+Screenshot:
+
+![Screenshot](./weather-app-screenshot.PNG?raw=true)
+

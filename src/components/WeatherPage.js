@@ -9,6 +9,7 @@ const WeatherPage = () => {
     const [forecastData, setForecastData] = useState(null);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
+    const today = null;
     //fetch weather info and forecast info
     const getWeatherInfo = async () => {
         setLoading(true);
