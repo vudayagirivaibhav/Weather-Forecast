@@ -10,6 +10,9 @@ Instructions to run the app:
 5) By default the application shows san jose as city. User can enter his required city name and view weather info and forecast info. 
 
 
+Pending items : 
 
+1) Chart to show temperatures 
+2) Add geolocation
 
 
