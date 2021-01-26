@@ -35,3 +35,43 @@
     transform: rotate(360deg);
   }
 }
+
+.title {
+  color: #fff;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.weather-div {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather-div input {
+  width: 80%;
+  height: 40px;
+  padding: 5px;
+}
+
+.weather-div button {
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px !important;
+  background: rgb(46, 8, 182);
+  color: white;
+  cursor: pointer;
+}
+
+.info-container {
+  width: 90%;
+  height: auto;
+  color: blue;
+  text-align: center;
+  margin-top:30px;
+}
+
