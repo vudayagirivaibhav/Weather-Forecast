@@ -43,7 +43,7 @@ const WeatherPage = () => {
     return ( 
         <div>
             <div className="weather-div">
-                <input type="text" placeholder="Enter City name(ex: Dallas,Austin)" onChange={(e) => setCity(e.target.value)} />
+                <input type="text" placeholder="Enter City name(ex: Dallas,Austin) Default city is San jose" onChange={(e) => setCity(e.target.value)} />
                 <button type="button" onClick={() => getWeatherInfo()}> Forecast </button>
             </div>
             {
@@ -53,6 +53,7 @@ const WeatherPage = () => {
                             <h3>Current Weather Info</h3>
                             <h4 className="city-name">{weatherData.name}</h4>
                             <p className="description">{weatherData.weather[0].description}</p>
+                            <p className="description">Current temp: {weatherData.main.temp}</p>
                             <div className="description">
                                 <img src={`http://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`} />
                             </div>
