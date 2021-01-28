@@ -16,6 +16,9 @@ Pending items :
 2) Add geolocation
 
 
+Time Spent to develop: 
+around 4 hr 20 minutes
+
 Screenshot:
 
 ![Screenshot](./weather-app-screenshot.PNG?raw=true)
